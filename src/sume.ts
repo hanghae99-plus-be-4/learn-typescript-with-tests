@@ -1,5 +1,13 @@
 const sum = (arr: number[]): number => {
-    return 0;
+    return arr.reduce((acc, cur) => acc + cur, 0);
 };
 
-export { sum };
+interface Stdout {
+    write(message: string): void;
+}
+
+const great = (stdOut: Stdout, message: string) => {
+    stdOut.write(message);
+};
+
+export { sum, great };
