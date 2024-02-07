@@ -1,0 +1,20 @@
+{
+  "name": "learn-typescript-with-tests",
+  "version": "1.0.0",
+  "author": "JeHwanYoo",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
