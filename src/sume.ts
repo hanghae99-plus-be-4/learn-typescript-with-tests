@@ -6,8 +6,8 @@ interface Stdout {
     write(message: string): void;
 }
 
-const great = (stdOut: Stdout, message: string) => {
+const greet = (stdOut: Stdout, message: string) => {
     stdOut.write(message);
 };
 
-export { sum, great };
+export { sum, greet, Stdout };
